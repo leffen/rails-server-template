@@ -1,29 +1,29 @@
 {
   "sources": {
     "build-essential": {
-      "locked_version": "2.0.3",
+      "locked_version": "2.0.5",
       "git": "git://github.com/opscode-cookbooks/build-essential.git",
-      "ref": "cb9201a6cf57e15c4995303f7e4df2dea462c3a6"
+      "ref": "400968913bfa8a4a5c9783b383c3b63899f2fe72"
     },
     "sudo": {
-      "locked_version": "2.5.3",
+      "locked_version": "2.6.1",
       "git": "git://github.com/opscode-cookbooks/sudo.git",
-      "ref": "d2902b4d6ea6fe2cf175d1921f0cb96b84e089bd"
+      "ref": "8bbdff7302f7a86e18d1a3f029813c665b53b322"
     },
     "basic-security-tlq": {
       "locked_version": "0.0.1",
-      "git": "git://github.com/TalkingQuickly/basic_security-tlq.git",
-      "ref": "b40c3aa3a924903650dc05c9e0a53aaf46e5cc56"
+      "git": "git://github.com/leffen/basic_security-tlq.git",
+      "ref": "3ef4bd74d4728b8903ca52d9aaa12e7b7ee2c01c"
     },
     "look-and-feel-tlq": {
       "locked_version": "0.0.1",
-      "git": "git://github.com/TalkingQuickly/look_and_feel-tlq.git",
-      "ref": "bf3b58e4233af1455a615f66a61cd104d43415b6"
+      "git": "git://github.com/leffen/look_and_feel-tlq.git",
+      "ref": "1271df50673d50d5273f84e58d95e34fcda8e440"
     },
     "users": {
       "locked_version": "1.7.1",
       "git": "git://github.com/opscode-cookbooks/users.git",
-      "ref": "526a61b769778edd4e457a9c58571daee8433e75"
+      "ref": "fca9a42ab44dadbb98432c931dfc6c049ecc23ce"
     },
     "chef-solo-search": {
       "locked_version": "0.5.1",
@@ -61,9 +61,9 @@
       "ref": "86d443f34b93f59dc7a4ed7e51f46a42b2c79eb1"
     },
     "mysql": {
-      "locked_version": "5.2.5",
+      "locked_version": "5.3.6",
       "git": "git://github.com/opscode-cookbooks/mysql.git",
-      "ref": "a46b4d846ce0b7e4aa34402cafdef6abacc5e03d"
+      "ref": "a5f470a542f4ad92ccaef831eb92d537877c1b3a"
     },
     "nginx-tlq": {
       "locked_version": "0.0.4",
@@ -76,18 +76,24 @@
       "ref": "0a3018634bafe58ad21c6ee271af015220e444b9"
     },
     "postgresql": {
-      "locked_version": "3.4.0",
+      "locked_version": "3.4.1",
       "git": "git://github.com/opscode-cookbooks/postgresql.git",
-      "ref": "3d894a76ccc96d2a5875aee8d9c7380aaecc76da"
+      "ref": "9dc4c6042bbd861ee8d5e2428397558fee06947e"
+    },
+    "yum-mysql-community": {
+      "locked_version": "0.1.8"
+    },
+    "yum": {
+      "locked_version": "3.0.6"
     },
     "ruby_build": {
       "locked_version": "0.8.0"
     },
     "java": {
-      "locked_version": "1.19.2"
+      "locked_version": "1.22.0"
     },
     "apt": {
-      "locked_version": "2.3.8"
+      "locked_version": "2.3.4"
     },
     "openssl": {
       "locked_version": "1.1.0"

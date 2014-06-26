@@ -2,8 +2,8 @@ site :opscode
 
 cookbook 'build-essential', github: 'opscode-cookbooks/build-essential'
 cookbook 'sudo', github: 'opscode-cookbooks/sudo'
-cookbook 'basic-security-tlq', github: 'TalkingQuickly/basic_security-tlq'
-cookbook 'look-and-feel-tlq', github: 'TalkingQuickly/look_and_feel-tlq'
+cookbook 'basic-security-tlq', github: 'leffen/basic_security-tlq'
+cookbook 'look-and-feel-tlq', github: 'leffen/look_and_feel-tlq'
 cookbook 'users', github: 'opscode-cookbooks/users'
 cookbook 'chef-solo-search', github: 'edelight/chef-solo-search'
 
