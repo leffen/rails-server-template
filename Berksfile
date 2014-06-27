@@ -18,3 +18,16 @@ cookbook 'mysql', github: 'opscode-cookbooks/mysql'
 cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'
 cookbook 'postgresql', github: 'opscode-cookbooks/postgresql'
+
+# Jenkins stuff
+cookbook "java", '~> 1.22'
+cookbook 'chef-kafka', github: 'leffen/chef-kafka'
+cookbook 'zookeeper', github: 'SimpleFinance/chef-zookeeper'
+cookbook 'jenkins',github: 'leffen/cookbook-jenkins'
+
+cookbook "nodejs"
+cookbook 'sqlite'
+cookbook 'ufw'
+cookbook 'imagemagick'
+
+
