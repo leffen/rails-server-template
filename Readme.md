@@ -3,6 +3,7 @@
 Mission is to have jenkins test and deploy my rails applications.
 
 ## Overview
+Tested on Ubuntu 14.04 digital ocean VPS server
 
 
 ## Documentation
