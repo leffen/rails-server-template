@@ -6,7 +6,7 @@
    },
    "json_class": "Chef::Role",
    "run_list": [
-      "nginx-tlq",
+      "nginx",
       "monit_configs-tlq::nginx"
    ],
    "chef_type": "role",

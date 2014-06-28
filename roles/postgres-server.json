@@ -1,13 +1,16 @@
 {
-   "name": "postgres-server",
-   "description": "Postgres database server",
-   "default_attributes": {
+  "name": "postgres-server",
+  "description": "Postgres database server",
+  "default_attributes": {
 
-   },
-   "json_class": "Chef::Role",
-   "run_list": [
-      "postgresql::server",
-      "monit_configs-tlq::postgres"
-   ],
-   "chef_type": "role"
+  },
+  "json_class": "Chef::Role",
+  "run_list": [
+    "postgresql::server",
+    "monit_configs-tlq::postgres",
+    "postgresql::client",
+    "postgresql::contrib",
+    "postgresql::libpq",
+  ],
+  "chef_type": "role"
 }
