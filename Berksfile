@@ -17,9 +17,10 @@ cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_depende
 cookbook 'mysql', github: 'opscode-cookbooks/mysql'
 cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'
-cookbook 'postgresql', github: 'opscode-cookbooks/postgresql'
+cookbook 'postgresql', github: 'phlipper/chef-postgresql'
 
 # Jenkins stuff
+cookbook "openssl"
 cookbook "java", github: 'socrata-cookbooks/java'
 cookbook 'chef-kafka', github: 'leffen/chef-kafka'
 cookbook 'zookeeper', github: 'SimpleFinance/chef-zookeeper'
