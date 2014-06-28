@@ -81,7 +81,9 @@
       "ref": "9dc4c6042bbd861ee8d5e2428397558fee06947e"
     },
     "java": {
-      "locked_version": "1.22.0"
+      "locked_version": "1.22.1",
+      "git": "git://github.com/socrata-cookbooks/java.git",
+      "ref": "eb1618039b841eb9cc031222f5c822c9dd2c7f81"
     },
     "chef-kafka": {
       "locked_version": "1.0.21",

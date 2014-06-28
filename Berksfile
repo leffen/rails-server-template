@@ -20,7 +20,7 @@ cookbook 'rbenv', github: 'fnichol/chef-rbenv'
 cookbook 'postgresql', github: 'opscode-cookbooks/postgresql'
 
 # Jenkins stuff
-cookbook "java", '~> 1.22'
+cookbook "java", github: 'socrata-cookbooks/java'
 cookbook 'chef-kafka', github: 'leffen/chef-kafka'
 cookbook 'zookeeper', github: 'SimpleFinance/chef-zookeeper'
 cookbook 'jenkins',github: 'leffen/cookbook-jenkins'

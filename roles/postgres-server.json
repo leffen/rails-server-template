@@ -10,7 +10,7 @@
     "monit_configs-tlq::postgres",
     "postgresql::client",
     "postgresql::contrib",
-    "postgresql::libpq",
+    "postgresql::libpq"
   ],
   "chef_type": "role"
 }
