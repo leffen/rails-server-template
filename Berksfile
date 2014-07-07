@@ -19,6 +19,9 @@ cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'
 cookbook 'postgresql', github: 'phlipper/chef-postgresql'
 
+cookbook 'nginx'
+
+
 # Jenkins stuff
 cookbook "openssl"
 cookbook "java", github: 'socrata-cookbooks/java'
@@ -30,5 +33,10 @@ cookbook "nodejs"
 cookbook 'sqlite'
 cookbook 'ufw'
 cookbook 'imagemagick'
+cookbook 'statsd', git: 'https://github.com/librato/statsd-cookbook.git'
+
+
+#cookbook 'club_accounting', git: "git@bitbucket.org:leffen/chef_club_accounting.git"
+cookbook 'club_accounting',  path: '/Users/leffen/p/chef_club_accounting'
 
 
